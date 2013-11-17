@@ -1,0 +1,92 @@
+div {
+  height: 300px;
+  width: 300px; 
+} 
+
+.twitter {
+  float: right; 
+  background-color: white;
+  margin-right: 20px;
+}
+
+.content {
+  float: left;
+  background-color: white;
+  height: 660px;
+  width: 660px; 
+}
+
+.box {
+  background-color: white;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid black 1px;
+  background-size: 100%;
+}
+
+#one {
+  background-image:url('photo3.JPG');
+}
+
+#two {
+  background-image:url('photo.JPG');
+}
+
+#three {
+  background-image:url('photo2.JPG');
+}
+
+p {
+    text-align: center;
+    font-family: Arial; 
+    font-size: .85em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}  
+
+#one:hover
+{ 
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+#two:hover
+{ 
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+#three:hover
+{ 
+  opacity:0.4;
+  filter:alpha(opacity=40);
+}
+
+
+a:link {
+  text-decoration:none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration:none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.title {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.6em;
+  font-weight: bold;  
+  font-size: 1.4em;
+}
+
+#about {
+  color: black;
+  text-shadow: black 0em 0em 0em; 
+}
